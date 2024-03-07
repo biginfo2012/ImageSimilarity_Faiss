@@ -246,8 +246,8 @@ if __name__ == "__main__":
         # download dev embeddings if not developement environment
         ap = argparse.ArgumentParser()
         ap.add_argument("--dev", action="store_true")
-        if not ap.parse_args().dev:
-            dl_embeddings()
+        # if not ap.parse_args().dev:
+        #    dl_embeddings()
         save_embedding(FOLDER)
 
         # File uploader
