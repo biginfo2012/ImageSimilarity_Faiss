@@ -1,0 +1,7 @@
+.env/
+images/
+__pycache__/
+*.tree
+*.index
+secrets.toml
+kaggle.json
